@@ -1,0 +1,19 @@
+{
+    "name": "devcontainer-nodejs-template",
+    "version": "1.0.1",
+    "author": {
+      "name": "asdf",
+      "email": "qwer@zxcv.com"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=18"
+    },
+    "scripts": {
+      "dev": "echo 'Container started successfully' && tail -f /dev/null"
+    },
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+}

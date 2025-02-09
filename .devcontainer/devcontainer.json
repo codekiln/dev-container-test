@@ -1,0 +1,16 @@
+{
+    "name": "Dev Container for node - alits",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "node",
+    "workspaceFolder": "/app",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "bs-code.git-quick-stage",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
+  }
+  
