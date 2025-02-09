@@ -12,7 +12,11 @@ When rebuilding the Dev Container, the extension `bs-code.git-quick-stage` shoul
 
 ### Actual Behavior
 
-The extension is not installed when the container is built, despite being correctly specified in the configuration.
+The extension is not installed when the container is built, despite being correctly specified in the configuration. Log Signature: 
+```
+[9399 ms] [10:05:14] Extension 'bs-code.git-quick-stage' not found.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+```
 
 ## Steps to Reproduce
 
@@ -23,7 +27,7 @@ The extension is not installed when the container is built, despite being correc
 
 ## Environment
 
-- VS Code Version: [Your VS Code version]
+- VS Code Version: VS Code 1.96.2
 - Dev Containers Extension Version: [Your Dev Containers extension version]
 - Using Default VS Code Profile
 - Operating System: [Your OS]
