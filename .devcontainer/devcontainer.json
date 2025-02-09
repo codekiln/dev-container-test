@@ -1,5 +1,5 @@
 {
-    "name": "Dev Container for node - alits",
+    "name": "Test Dev Container for node",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "node",
     "workspaceFolder": "/app",
